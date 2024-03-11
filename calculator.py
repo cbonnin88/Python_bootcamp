@@ -48,7 +48,7 @@ while True:
             continue
         
         else:
-            print("please input correct choice")
+            print("please input yes or no")
             
     
     
