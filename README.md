@@ -4,3 +4,4 @@ Various projects using Python to hone my skills :
 2. A Simple calculator that lets you add, subtract, multiply, and divide numbers
 3. A file sorter
 4. Web scrapping from a world demographic website and exporting the data into a CSV
+5. An Automated Web scrapper for crypto currency
