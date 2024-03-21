@@ -26,10 +26,10 @@ def automated_crypto_pull():
     df = pd.DataFrame([dict])
 
     # Pulling it into a CSV File
-    if os.path.exists("/Users/chris/Desktop/Projects/Project/Csv/Automated_Cryto_Pull.csv"):
-        df.to_csv("/Users/chris/Desktop/Projects/Project/Csv/Automated_Crypto_Pull.csv",mode ='a', header=False, index=False)
+    if os.path.exists(r"/Users/chris/Desktop/Projects/Project/Csv/Automated_Cryto_Pull.csv"):
+        df.to_csv(r"/Users/chris/Desktop/Projects/Project/Csv/Automated_Crypto_Pull.csv",mode ='a', header=False, index=False)
     else:
-        df.to_csv("/Users/chris/Desktop/Projects/Project/Csv/Automated_Crypto_Pull.csv")
+        df.to_csv(r"/Users/chris/Desktop/Projects/Project/Csv/Automated_Crypto_Pull.csv")
     print(df)
    
 
