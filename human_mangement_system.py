@@ -41,17 +41,31 @@ class HRMS:
     # Creating a method to update employee information:
     def update_employee_info(self):
         emp_id = input("Enter Employee ID to update information: ")
+        change = input("what information would you like to update ?\n1. Name\n2. Job "
+                       "Title\n3. Department,\n4. Salary\nEnter a number here : ")
 
         for emp in self.employees:
             if emp.emp_id == emp_id:
-                emp.name = input("Enter new name: ")
-                emp.job_title = input("Enter new job title: ")
-                emp.department = input("Enter new department: ")
-                emp.salary = input("Enter new salary: ")
-                print(f"Employee {emp_id} successfully updated.\n")
-                return
+                if change == "1":
+                    emp.name = input("Enter new name: ")
+                    print(f"Employee ID {emp_id} successfully updated.\n")
+                    return
+                elif change == "2":
+                    emp.job_title = input("Enter new job title: ")
+                    print(f"Employee ID {emp_id} successfully updated.\n")
+                    return
 
-        print(f"No employee found with the ID {emp_id}.\n")
+                elif change == "3":
+                    emp.department = input("Enter new department: ")
+                    print(f"Employee ID {emp_id} successfully updated.\n")
+                    return
+                elif change == "4":
+                    emp.salary = input("Enter new salary: ")
+                    print(f"Employee ID {emp_id} successfully updated.\n")
+                    return
+
+                else:
+                    print("Employee Information not found")
 
     # Creating a method to delete an employee from the system
     def delete_employee_info(self):
