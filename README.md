@@ -7,3 +7,5 @@ Various projects using Python to hone my skills :
 5. An Automated Web scrapper for crypto currency
 6. Web Scrapping project using the 2024 State of The Union Address
 7. A human resources management system
+8. An employee managment app
+9. Created an excel workbook using python
