@@ -10,3 +10,4 @@ Various projects using Python to hone my skills :
 8. An employee managment app
 9. Created an excel workbook using python
 10. An AI data cleaning tool for HR Data
+11. Income Analysis project
