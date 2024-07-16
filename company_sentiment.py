@@ -34,10 +34,12 @@ classifier.fit(x_train, y_train)
 # Making Predictions on the test data
 y_prediction = classifier.predict(x_test)
 
+#%%
 # Calculate accuracy
 accuracy = accuracy_score(y_test, y_prediction)
 print("Accuracy:", accuracy)
 
+#%%
 # predicting a new document
 new_document = ["I feel good about working at this company"]
 new_tfidf = tfidf_vectorizer.transform(new_document)

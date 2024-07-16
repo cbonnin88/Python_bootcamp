@@ -5,6 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
+#%%
 # Creating our example data
 company_data = {
     "Companies": ['Starfield Enterprise', 'Sandersand Consultants', 'Spearsmann', 'GreenTech', 'Vegna Mining Company'],
@@ -14,6 +15,7 @@ company_data = {
 
 df = pd.DataFrame(company_data)
 
+#%%
 # Splitting the data into training and testing sets
 x = df['Total Revenue'].values.reshape(-1, 1)
 y = df['Hiring Budget'].values
@@ -36,15 +38,18 @@ warnings.filterwarnings("ignore")
 mse = mean_squared_error(y_test, y_prediction)
 r2 = r2_score(y_test, y_prediction)
 
+#%%
 # Print the results
 print(f"Mean Squared Error: {mse}")
 print(f"R-squared: {r2}")
 
+#%%
 # Predicting the hiring budget of our companies
 hiring_budget = [[599000]]
 predicted_hiring_budget = lr_model.predict(hiring_budget)
 print(f"Predicted Hiring Budget for GreenTech: {predicted_hiring_budget[0]}")
 
+#%%
 # visualization
 plt.figure(figsize=(10, 6))
 
