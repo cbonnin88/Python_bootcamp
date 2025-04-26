@@ -12,3 +12,5 @@ Various projects using Python to hone my skills :
 10. An AI data cleaning tool for HR Data
 11. Income Analysis project
 12. Income classifcation project
+13. Cleaning an HR Database with Pandas
+14. Analysis of Airbnb listings in Paris (2015)
