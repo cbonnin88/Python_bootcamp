@@ -13,3 +13,4 @@ Various projects using Python to hone my skills :
 11. Income Analysis project
 12. Income classifcation project
 13. A PDF to word converter
+14. A Lie detector test
