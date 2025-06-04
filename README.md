@@ -15,3 +15,4 @@ Various projects using Python to hone my skills :
 13. A Lie detector test
 14. Food App
 15. A logistics App
+16. Word Cloud
